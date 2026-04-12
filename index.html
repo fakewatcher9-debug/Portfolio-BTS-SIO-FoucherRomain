@@ -473,19 +473,21 @@
           </div>
         </div>
 
-        <form action="https://formspree.io/f/xrerzpgj" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+        <form action="https://formspree.io/f/xrerzpgj" method="POST" data-aos="fade-up" data-aos-delay="300">
+          <input type="hidden" name="_next" value="https://fakewatcher9-debug.github.io/Portfolio-BTS-SIO-FoucherRomain/merci.html">
+          <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio">
           <div class="row gy-4">
 
             <div class="col-md-6">
-              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+              <input type="text" name="name" class="form-control" placeholder="Votre Nom" required="">
             </div>
 
-            <div class="col-md-6 ">
-              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            <div class="col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Votre Email" required="">
             </div>
 
             <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+              <input type="text" class="form-control" name="subject" placeholder="Sujet" required="">
             </div>
 
             <div class="col-md-12">
@@ -493,11 +495,7 @@
             </div>
 
             <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-
-              <button type="submit">Send Message</button>
+              <button type="submit" style="background:var(--accent-color);color:#fff;border:none;padding:10px 30px;border-radius:25px;font-size:1rem;cursor:pointer;">Envoyer le message</button>
             </div>
 
           </div>
