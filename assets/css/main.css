@@ -778,6 +778,7 @@ section,
   padding: 25px 20px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
   transition: box-shadow 0.3s, transform 0.3s;
+  min-height: 160px;
 }
 
 .services .service-item:hover {
